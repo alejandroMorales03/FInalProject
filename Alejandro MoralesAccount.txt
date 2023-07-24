@@ -1,0 +1,7 @@
+
+Name: Alejandro Morales
+Age: 12
+Gender: ma;le
+Fitness Style: Orange Theory
+Gym: Crunch
+Monthly Price: 150.0

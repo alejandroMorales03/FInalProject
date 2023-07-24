@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Membership implements Serializable {
+public class Membership{
     private String name;
     private String gender;
     private String password;
@@ -39,7 +39,7 @@ public class Membership implements Serializable {
         }
         if(choice < 3){
             System.out.println("* VIP GUEST ACCESS");
-            System.out.println("* ACCESS TO ALL CLASSESS");
+            System.out.println("* ACCESS TO ALL CLASSES");
         }
         if(choice < 2){
             System.out.println("* DISCOUNTED PERSONAL TRAINING");
@@ -77,7 +77,7 @@ public class Membership implements Serializable {
             }while(age < 12);
 
             do{
-                System.out.println("\nWhat kind of trainining are you interested on: \n");
+                System.out.println("\nWhat kind of training are you interested on: \n");
                 System.out.println("1. Powerlifting\n2. CrossFit\n3. Orange Theory");
                 System.out.println("4. Calisthenics \n5. Traditional Weighlifting");
                 System.out.println("\nChoice: ");
